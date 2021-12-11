@@ -21,7 +21,7 @@ The purpose of this project was to use unsupervised learning on a cryptocurrency
 ### Standardize Data
 
 Once the data was cleaned, we used StandardScaler() to scale the data.
-![image of code and scaled data](https://github.com/jisellejones/Cryptocurrencies/blob/main/images/scale_data.png)
+<p align="left"><img class="centerImage" src="https://github.com/jisellejones/Cryptocurrencies/blob/main/images/scale_data.png" width="400" height="300" alt="Summary Data Table for All Lots" /></p>
 
 ### Principal Component Analysis (PCA)
 
