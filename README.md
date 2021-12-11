@@ -21,26 +21,26 @@ The purpose of this project was to use unsupervised learning on a cryptocurrency
 ### Standardize Data
 
 Once the data was cleaned, we used StandardScaler() to scale the data.
-![image of code and scaled data]()
+![image of code and scaled data](https://github.com/jisellejones/Cryptocurrencies/blob/main/images/scale_data.png)
 
 ### Principal Component Analysis (PCA)
 
 The crypotcurrency dataset had a large number of input features. We reduced the number of dimensions using PCA. We chose to group the dimensions into 3 components.
 
-![image of dimensions grouped into 3 components]()
+![image of dimensions grouped into 3 components](https://github.com/jisellejones/Cryptocurrencies/blob/main/images/three_components.png)
 
 ### Clustering Cryptocurrency using K-means
 
 We found an elbow curve to determine the best number of cryptocurrency clusters would be a cluster of 4.
 
-![image of elbow curve]()
+![image of elbow curve](https://github.com/jisellejones/Cryptocurrencies/blob/main/images/elbow_curve.png)
 
 The algorithm placed the cryptocurrencies in 4 different clusters based on the input features.
 
-![3D image ofcryptocurrency clusters]()
+![3D image ofcryptocurrency clusters](https://github.com/jisellejones/Cryptocurrencies/blob/main/images/crypot_currency_clusters_3d.png)
 
 Finally, we related these clusters or "classes" back to the tradable cryptocurrencies and visualize the classes based on total coin supply and total coins mined.
 
-![scatterplot of total coin supply, total coins mined, and class]()
+![scatterplot of total coin supply, total coins mined, and class](https://github.com/jisellejones/Cryptocurrencies/blob/main/images/scatterplot.png)
 
 
